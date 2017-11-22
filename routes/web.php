@@ -18,9 +18,9 @@ Route::get('/admin', function () {
 Route::get('form', function () {
     return view('example.form');
 });
-Route::get('table', function () {
-    return view('example.table');
-});
+//Route::get('table', function () {
+//    return view('example.table');
+//});
 Route::get('table_two', function () {
     return view('example.form_two');
 });
